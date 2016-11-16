@@ -9,9 +9,8 @@
 			 
 										var customer1 = new Customer(name, depositAmount, accountNumber,bankName,years);
 										customer1.calculateMaturityAmount(depositAmount);
-										return false;
 					
-				},false);
+				});
 				
 				
 				var Bank = function(bankName) {
@@ -28,9 +27,8 @@
 					}else{
 						var finalamount = parseInt(depositAmount)+parseInt((depositAmount*this.interestRate/100));
 				 
-				  document.getElementById("demo").innerHTML = "Maturity amount is  "+finalamount;
-				  
-				  console.log("Maturity amount is  "+finalamount)
+				  document.getElementById("demo").innerHTML = "Maturity amount is  "+finalamount;								  
+				  console.log("Maturity amount is  "+finalamount);
 					}
 
 				 
