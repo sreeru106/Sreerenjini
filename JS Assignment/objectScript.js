@@ -12,7 +12,6 @@
 					
 				});
 				
-				
 				var Bank = function(bankName) {
 				  this.bankName = bankName;
 				  this.interestRate=7;
