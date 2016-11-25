@@ -1,5 +1,5 @@
 Set up:
-1.	Node and mongo installed
+1.	Install Node and mongo 
 2.	download the code into your local machine
 3.	open command prompt from the folder
 4.	type "npm install", this will install all the node dependencies
