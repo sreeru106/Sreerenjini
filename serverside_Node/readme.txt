@@ -7,7 +7,7 @@ Set up:
 		Run mongod.exe (make sure you have C:/data/db folder created)
 6.	Create a folder AngularJS_Assignment and copy these files or download. 
 7.	Create a folder “views” in the AngularJS_Assignment folder and place your index.html 
-(Use name "index.html" for the initial page and place that in the "views" folder.)
+        (Use name "index.html" for the initial page and place that in the "views" folder.)
 8.	Create a folder “client”  in the AngularJS_Assignment and place the angular js code in that folder
 9.	While creating a router, mention template url as "client/<your path>"
 10.	Use server calls as below:
