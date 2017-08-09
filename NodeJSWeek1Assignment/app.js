@@ -50,6 +50,7 @@ app.delete('/delete/:id',function(req,res){
 	res.json(students);
 });
 
+
 app.put('/update/:id',function(req,res){
 	console.log("Received updateStudent "+req.query.firstname);
 		var name = req.body.name;
